@@ -9,6 +9,7 @@ require('dotenv').config();   // giup chayj dc dong process.env
 
 
 let app = express();
+
 app.use(cors({ origin: true }));
 
 
@@ -26,3 +27,6 @@ app.listen(port, () => {
     //callback
     console.log("Backend Nodejs is running on the port: " + port);
 })
+
+
+//1321321231321321
